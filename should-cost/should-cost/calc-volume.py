@@ -12,20 +12,31 @@
 # - Color (for visualization)
 
 # Based on orientability vectors, calculate if the shape is:
-# - Based on a base shape (e.g., pipe, sheet)
+# - Based on a base piece (e.g., pipe, sheet)
 # - Custom component
-
-# If machining meta-data is not tagged, request input from user:
-# - Which type of machine they intend to use
-# - Duration of work
-# Backend: lookup of expected labor costs associated with 
+# Backend: lookup material price while trying to minimize wastage (to do: find common component pricing from raw materials vendors)
 
 # If material meta-data is not tagged, request input from user:
 # - Which material
 # QQ: is it safe to assume that most projects are single metal? or are they mixed metal
 
-# Calculate sum 
+# If machining meta-data is not tagged, request input from user on each piece:
+# - Which type of machine they intend to use
+# - Duration of work
+# Backend: lookup expected labor costs associated with machining (to do: ??? is this based on technician prices?)
 
+# Request labor required between pieces: e.g., soldering / joining two components
+
+# Request other ordering data
+# MOQ
+# Salary & admin costs
+
+# Export other 
+
+
+
+## Other to dos:
+# 
 
 
  
