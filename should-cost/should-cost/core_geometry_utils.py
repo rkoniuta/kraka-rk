@@ -15,6 +15,7 @@ from OCC.Core.GeomAPI import GeomAPI_PointsToBSpline
 from OCC.Core.TColgp import TColgp_Array1OfPnt
 from OCC.Core.gp import gp_Vec, gp_Pnt, gp_Trsf, gp_OX, gp_OY, gp_OZ
 
+print("hi")
 
 def make_edge(*args):
     edge = BRepBuilderAPI_MakeEdge(*args)

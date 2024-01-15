@@ -14,3 +14,4 @@ myshape = step_reader.Shape()
 my_renderer = x3dom_renderer.X3DomRenderer()
 my_renderer.DisplayShape(myshape)
 my_renderer.render()
+from OCC.Display.WebGl import x3dom_renderer

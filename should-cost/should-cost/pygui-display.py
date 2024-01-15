@@ -30,6 +30,7 @@ from OCC.Display.SimpleGui import init_display
 
 display, start_display, add_menu, add_function_to_menu = init_display()
 
+print("hi")
 
 def random_pnt():
     x, y, z = [random.uniform(0, 1) for i in range(3)]
