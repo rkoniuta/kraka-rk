@@ -1,7 +1,6 @@
 ## Program Logic
 
-# Load STP (CAD) file
-## QQ: seeing a lot of PDF files. Is it realistic to expect CAD exports?
+# Load STP (CAD) file # QQ: seeing a lot of PDF files. Is it realistic to expect CAD exports?
 
 # Iterate through all components in the file & extract metadata:
 # - Volume properties
@@ -11,10 +10,10 @@
 # - Machining metadata
 # - Color (for visualization)
 
-# Create visualization
-# Export to WebGL browser viewer
-# Paint shapes  
-# Set scene & allow scroll
+# Create UI visualization
+# - Export to WebGL browser viewer
+# - Paint shapes  
+# - Set scene & allow scroll
 
 # Based on orientability vectors, calculate if the shape is:
 # - Based on a base piece (e.g., pipe, sheet)
@@ -29,8 +28,11 @@
 # - Which type of machine they intend to use
 # - Duration of work
 # Backend: lookup expected labor costs associated with machining (to do: ??? is this based on technician prices?)
+# Request labor required between pieces: e.g., soldering / joining two components / final finishing
 
-# Request labor required between pieces: e.g., soldering / joining two components
+# Allow additional customization
+# - Part name
+# - Part finish
 
 # Request other ordering data
 # MOQ
