@@ -11,6 +11,11 @@
 # - Machining metadata
 # - Color (for visualization)
 
+# Create visualization
+# Export to WebGL browser viewer
+# Paint shapes  
+# Set scene & allow scroll
+
 # Based on orientability vectors, calculate if the shape is:
 # - Based on a base piece (e.g., pipe, sheet)
 # - Custom component
@@ -30,29 +35,20 @@
 # Request other ordering data
 # MOQ
 # Salary & admin costs
+# Packaging costs # QQ: How to estimate?
+# Margin on order # QQ: What is typical?
 
-# Export other 
-
-
+# Export costing invoice
+# Unit material cost
+# Unit manufacturing cost
+# Unit packaging costs
+# Salary & admin costs
+# Total unit cost
+# Total order cost
 
 ## Other to dos:
-# 
-
-
- 
-
-# Request user input 
-
-# Where app
-# Export to WebGL browser viewer
-# Paint shapes  
-
-
-
-# Materials sheet prices
-# Machining prices
-# 
-
+# Request free trial of costimator
+# Set up demo with other should cost suppliers
 
 
 
