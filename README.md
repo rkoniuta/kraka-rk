@@ -21,7 +21,7 @@ Clone the repository: Type the following command, replacing https://github.com/u
 
 Bash
 git clone https://github.com/username/reponame
-Use code with caution. Learn more
+
 4. Install Anaconda or Miniconda:
 
 Download the installer for macOS: https://www.anaconda.com/products/distribution: https://www.anaconda.com/products/distribution
@@ -34,14 +34,14 @@ Create the environment: Type the following command:
 
 Bash
 conda create -n kraka-env -f kraka-environment.yml
-Use code with caution. Learn more
+
 6. Activate the Environment:
 
 Type the following command:
 
 Bash
 conda activate kraka-env
-Use code with caution. Learn more
+
 7. Install Dependencies with Pip:
 
 Navigate to the cloned repository: Use the cd command.
@@ -50,11 +50,7 @@ Install dependencies: Type the following command:
 
 Bash
 pip install -r requirements.txt
-Use code with caution. Learn more
-8. Run python -W ignore main.py --read ./input-stp-files/test2.stp
 
-Type the following command:
+8. Type the following command:
 
-Bash
-python main.py
-Use code with caution. Learn more
+Run python -W ignore main.py --read ./input-stp-files/test2.stp
