@@ -1,0 +1,32 @@
+{
+    "aluminium-raw":
+    {
+        "material-density-per-mm3": 20,
+        "usd-cost-per-kg": 20
+    },
+    "aluminium-sheet":
+    {
+        "material-density-per-mm3": 20,
+        "usd-cost-per-kg": 20
+    },
+    "aluminium-tube":
+    {
+        "material-density-per-mm3": 20,
+        "usd-cost-per-kg": 20
+    },
+    "steel-raw":
+    {
+        "material-density-per-mm3": 20,
+        "usd-cost-per-kg": 20
+    },
+    "steel-sheet":
+    {
+        "material-density-per-mm3": 20,
+        "usd-cost-per-kg": 20
+    },
+    "steel-tube":
+    {
+        "material-density-per-mm3": 20,
+        "usd-cost-per-kg": 20
+    }
+}

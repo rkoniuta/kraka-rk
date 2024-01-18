@@ -1,0 +1,17 @@
+{
+    "file-path": "x",
+    "component-costs": [],
+    "assembly-costs": {
+        "usd-assembly": 5
+    },
+    "post-processing-costs":
+    {
+        "usd-post-processing": 5
+    },
+    "quality-control-costs":
+    {
+        "defect-rate": 5
+    },
+    "margin-percent": 20,
+    "MOQ": 2000
+}

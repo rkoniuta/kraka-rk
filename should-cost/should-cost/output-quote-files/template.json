@@ -1,0 +1,16 @@
+{
+    "Total unit costs": {
+        "Total with margin": 0,
+        "Total without margin": 0
+    },
+    "Manufacturing cost subtotal": {
+        "Subtotal": 0,
+        "Component costs": {
+            "Raw material costs": 0,
+            "Machining costs": 0
+        }
+    },
+    "Assembly cost subtotal": 0,
+    "Post processing cost subtotal": 0,
+    "Quality control cost subtotal": 0
+}

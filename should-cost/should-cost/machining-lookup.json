@@ -1,0 +1,21 @@
+{
+    "laser":
+    {
+        "<20mm tolerance": 5,
+        "0.1mm tolerance": 10
+    },
+    "waterjet":
+    {
+        "<200mm tolerance": 5,
+        "0.2mm tolerance": 10
+    },
+    "plasma":
+    {
+        "20mm tolerance": 5,
+        "0.1mm tolerance": 10
+    },
+    "oxy-fuel":
+    {
+        ">50mm tolerance": 5
+    }
+}
