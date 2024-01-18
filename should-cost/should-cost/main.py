@@ -73,7 +73,7 @@ import json
 
 shutup.please()
 
-OUTPUT_SPEC_TEMPLATE = "./test-inputs/template.json"
+OUTPUT_SPEC_TEMPLATE = "./output-spec-files/template.json"
 OUTPUT_QUOTE_TEMPLATE = "./output-quote-files/template.json"
 MATERIAL_DEFAULT = "aluminium-raw"
 INPUT_MACHINING = "./machining-lookup.json"
@@ -177,7 +177,7 @@ if __name__ == "__main__":
         tolerance = 1e-5
 
         fname = args.read.split(".stp")[0] + ".json"
-        fname = fname.replace("files", "inputs")
+        fname = fname.replace("input-stp", "output-spec")
 
         with open(OUTPUT_SPEC_TEMPLATE, "r") as f:
             template = json.load(f)
